@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EconomiesActivity!</string>
+    <string name="app_name">Economies</string>
+    <string name="nouveauprofile">Nouveau profil</string>
+    <string name="typeprofilename">Nom du profil</string>
+    <string name="validate">Valider</string>
+    <string name="cancel">Annuler</string>
+    <string name="deleteprofile">Supprimer le profil ?</string>
+    <string name="ok">OK</string>
+    <string name="selectaprofile">Choix du profil</string>
+    <string name="salaire">Salaire</string>
+    <string name="restant">Restant</string>
+    <string name="nouvelledepense">Nouvelle dépense</string>
+    <string name="nouvelapport">Nouvel apport</string>
+    <string name="nouvelledepensetitle">Nouvelle dépense</string>
+    <string name="newDepenseLabel">Nom :</string>
+    <string name="newdepenseamount">Montant</string>
+    <string name="newDepenseDefaultAmount">0.00</string>
+    <string name="salaireof">Salaire du mois de </string>
+    <string name="deletedepense">Supprimer la dépense ?</string>
+    <string name="newDepenseIsMensuel">Mensuel ?</string>
+    <color name="monthlyBackground">#FF0000</color>
+    <string name="noprofile">Aucun profil trouvé, ouvrez le menu pour en créer un nouveau</string>
+    <string name="profilesummaryrest">Restant : </string>
+    <string name="currency">€</string>
+    <string name="depensedate">Date</string>
+    <string name="newdepensechangerdate">Changer date</string>
+    <string name="totalDepense">Dépenses</string>
+    <string name="plusmoins">+/-</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="anticipermoisprochain">Anticiper le mois suivant</string>
+    <string name="nextmonthalreadyexists">Le mois prochain a déjà été anticipé</string>
+    <string name="newDesignation">Nouvelle\ndesignation</string>
+    <string name="helpMonthSelection">Sélectionnez un mois</string>
+    <string name="helpDepenseSelection">Sélectionnez une dépense ou ouvrez le menu</string>
+    <string name="helpProfilSelection">Sélectionnez un profil ou choisissez nouveau</string>
+    <string name="helpDepense">Conseil: cochez la case mensuel pour que la dépense soit automatiquement reportée chaque mois</string>
+    <string name="menuthink">Pensez à la touche menu</string>
+    
+    <string name="delete">Supprimer</string>
+    <string name="depensedesignation">Désignation</string>
+    <string name="modifiersalaire">Modifier salaire</string>
+    <string name="deletemonth">Supprimer le mois ?</string>
+    <string name="please_type_profile_name">Veuillez saisir un nom de profil</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#C62828</color>
+    <color name="green">#00FF00</color>
+    <color name="black">#000000</color>
+    <color name="greenGimp">#33802E</color>
+    <color name="blueandroid">#3F51B5</color>
+    <color name="blancbleuteandroid">#e2f4fb</color>
+    <color name="grisandroid">#eaeaea</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="light_green_700">#689F38</color>
+</resources>

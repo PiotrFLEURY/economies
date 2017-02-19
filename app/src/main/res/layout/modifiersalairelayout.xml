@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grisandroid"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/modifierSalaireTitle"
+        android:background="@color/blueandroid"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modifiersalaire"
+            android:textColor="@color/white"
+            android:textStyle="bold" >
+</TextView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:paddingLeft="10dp" android:paddingRight="10dp">
+        <TextView android:id="@+id/modifierSalaireTitle" android:layout_width="wrap_content" android:text="@string/salaireof" android:textColor="@color/black" android:layout_height="wrap_content" android:gravity="center"></TextView>
+        <EditText android:layout_width="fill_parent" android:id="@+id/modifierSalaireEditText" android:inputType="numberDecimal" android:layout_height="wrap_content"></EditText>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/modifierSalaireOkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/navigationaccept" />
+
+            <ImageView
+                android:id="@+id/modifierSalaireAnnulerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/navigationcancel" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    
+</LinearLayout>

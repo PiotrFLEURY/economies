@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grisandroid"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48sp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="48sp"
+            android:background="@color/blueandroid"
+            android:text="@string/nouveauprofile"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/buttonValidateNewProfile"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:padding="4sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_check_white_48dp"
+            android:onClick="onValidate"/>
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/textNewProfileName"
+        android:layout_width="fill_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="4sp"
+        android:layout_marginBottom="4sp"
+        android:padding="8sp"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/textView1"
+        android:inputType="textPersonName"
+        android:hint="@string/typeprofilename"
+        android:imeOptions="actionDone"/>
+
+</LinearLayout>

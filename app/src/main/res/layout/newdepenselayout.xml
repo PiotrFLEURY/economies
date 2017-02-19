@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grisandroid"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <FrameLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="48sp"
+        android:background="@color/blueandroid"
+        android:padding="16sp">
+
+        <TextView
+            android:id="@+id/newDepenseTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/nouvelledepensetitle"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/newDepenseDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/depensedesignation"/>
+
+    <EditText
+        android:id="@+id/newDepenseAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/newdepenseamount"/>
+
+    <CheckBox
+        android:id="@+id/newDepenseCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newDepenseIsMensuel"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:drawableLeft="@drawable/collectionsgototoday"
+            android:text="@string/depensedate"
+            android:id="@+id/newDepenseChangeDateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/newDepenseDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="23/06/2014"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="48sp" >
+
+        <ImageView
+            android:id="@+id/newDepenseOkButton"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigationaccept"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/newDepenseDeleteBtn"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contentdiscard"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

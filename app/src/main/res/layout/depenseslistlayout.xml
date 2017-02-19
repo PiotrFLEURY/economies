@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grisandroid"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DepensesListActivity">
+
+    <TextView
+        android:id="@+id/linkedmonthtextview"
+        android:layout_width="fill_parent"
+        android:layout_height="56sp"
+        android:textColor="@color/blueandroid"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="8sp"
+        tools:text="août 2016"/>
+
+    <LinearLayout
+        android:id="@+id/depenseListHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueandroid" >
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/depensesListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:paddingLeft="4sp"
+        android:paddingRight="4sp" />
+
+    <LinearLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_green_700"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:padding="4sp"
+            android:background="@color/red"
+            android:layout_height="90sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/totalDepense"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/btnDepense"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_trending_down_white_48dp" />
+
+            <TextView
+                android:id="@+id/totalDepenseTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                tools:text="100.00 €"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:padding="4sp"
+            android:layout_height="90sp"
+            android:background="@color/blueandroid">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salaire"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/btnSalaire"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_trending_up_white_48dp" />
+
+            <TextView
+                android:id="@+id/salaireTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                tools:text="2000.00 €"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:background="@color/light_green_700"
+            android:layout_height="90sp"
+            android:padding="4sp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restant"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/btnApport"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_credit_card_white_48dp" />
+
+            <TextView
+                android:id="@+id/restantTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                tools:text="1900.00 €"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    
+</LinearLayout>

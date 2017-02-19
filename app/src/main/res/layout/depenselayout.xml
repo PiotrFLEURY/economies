@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="64sp"
+    android:background="@color/white"
+    android:padding="4sp"
+    android:layout_margin="4sp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/depenseMensuelleImg"
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:src="@drawable/repeat"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/depenselayoutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="24sp"
+        android:padding="4sp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/depenseMensuelleImg"
+        android:textColor="@color/blueandroid"
+        android:textSize="12sp"
+        tools:text="28/10/1986"/>
+
+    <TextView
+        android:id="@+id/depenselayoutlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="24sp"
+        android:gravity="center"
+        android:padding="4sp"
+        android:layout_toRightOf="@+id/depenselayoutdate"
+        android:layout_toLeftOf="@+id/depenselayoutamount"
+        android:textColor="@color/black"
+        tools:text="Electricité"/>
+
+
+    <TextView
+        android:id="@+id/depenselayoutamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="100.00 €"/>
+
+</RelativeLayout>
